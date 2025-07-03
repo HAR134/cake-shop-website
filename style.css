@@ -1,0 +1,201 @@
+body
+{
+ font-family:'Times New Roman', Times, serif;
+ font-size:15px;
+ line-height:1.5;
+ padding:0;
+ margin:0;
+ background-color:#f4f4f4;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.button_1{
+    margin: 20px;
+    height:38px;
+    padding-right:20px;
+    padding-left:20px;
+    background-color: #e8491d;
+    color: #ffffff;
+    border: none;
+}
+
+.button_2{
+    margin: 20px;
+    height:35px;
+    padding:5px 15px 5px 15px;
+    background-color: #e8491d;
+    color: #ffffff;
+}
+
+
+.dark{
+    padding:27.5px;
+    background-color: #35424a;
+    color:#ffffff;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:80px;
+    border-bottom:#e8491d 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px ;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:2px;
+}
+
+header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+   color:#cccccc;
+   font-weight:bold;
+}
+
+#scroll{
+     font-size:20px;
+     color:red;
+     background-color:white;
+}
+
+#scroll .highlight{
+    text-decoration:wavy;
+    text-transform: uppercase;
+}
+
+#showcase{
+    min-height:400px;
+    width:70%;
+    background-color:cadetblue;
+    /*background-image: image('../IMG/Presentation.jpg')no repeat;*/
+    float:left;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size:55px;
+    margin-top:100px;
+    
+}
+
+#showcase p{ 
+    font-size:20px;
+
+}
+
+#login{
+    float:right;
+    width:30%;
+    min-height:400px;
+    text-align:center;
+    margin:0;
+}
+
+#login h1{
+    color:#ffffff;
+    margin-top:80px;
+    font-size:25px;
+
+}
+
+#login form{
+    color:#ffffff;
+    font-size:20px;
+}
+
+#login input[type="name"]{
+   padding:4px;
+   height:20px;
+   width:200px;
+   margin-bottom:10px;
+}
+
+#login input[type="email"]{
+   padding:4px;
+   height:20px;
+   width:200px;
+   margin-bottom:10px;
+}
+
+#login input[type="number"]{
+    padding:4px;
+    height:20px;
+    width:200px;
+    margin-bottom:10px;
+ }
+
+#menus{
+     margin-top:20px;
+}
+
+#menus .menu a{
+     text-decoration:none;
+}
+
+
+#menus .menu{
+     float:left;
+     text-align:center;
+     width:30%;
+     padding:10px;
+     
+}
+
+article #customize{
+    margin:0px;
+    padding:10px;
+}
+
+#customize h1{
+    text-align:center;
+}
+
+
+footer{
+    background-color: #e8491d;
+    color:#ffffff;
+    padding:0.5px;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}
+
+footer p{
+    padding-top:0.5px;
+}
